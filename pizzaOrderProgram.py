@@ -11,6 +11,7 @@ extra_cheese = input('Do you want extra cheese? Y or N: ')
 # determine the cost
 total_bill = 0
 
+# check for size
 if size == 'S':
     total_bill += 15
 elif size == 'M':
@@ -18,12 +19,14 @@ elif size == 'M':
 elif size == 'L':
     total_bill += 25
 
+# check if customer wants pepperoni
 if add_pepperoni == 'Y':
     if size == 'S':
         total_bill += 2
     elif size == 'L' or size == 'M':
         total_bill += 3
 
+# check if customer wants extra cheese
 if extra_cheese == 'Y':
     total_bill += 1
 
