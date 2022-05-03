@@ -58,8 +58,8 @@ finished = False
 
 while not finished:
     num1 = float(input("What's the first number? "))
-    num2 = float(input("What's the second number? "))
     operation = str(input("What operation do you want to perform '+', '-', '*', '/'? "))
+    num2 = float(input("What's the second number? "))
     operate(num1, operation, num2)
 
     fin = str(input('Do you want to continue calculating? Type "yes" or "no"'))
