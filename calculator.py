@@ -57,8 +57,8 @@ print(logo)
 finished = False
 
 while not finished:
-    num1 = int(input("What's the first number? "))
-    num2 = int(input("What's the second number? "))
+    num1 = float(input("What's the first number? "))
+    num2 = float(input("What's the second number? "))
     operation = str(input("What operation do you want to perform '+', '-', '*', '/'? "))
     operate(num1, operation, num2)
 
