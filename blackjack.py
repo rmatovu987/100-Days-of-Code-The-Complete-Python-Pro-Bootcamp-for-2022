@@ -84,7 +84,6 @@ def play_game():
                 user_cards.append(deal_cards())
 
     # Computer takes cards
-    computer_score = calculate_score(computer_cards)
     while computer_score != 0 and computer_score < 17:
         computer_cards.append(deal_cards())
         computer_score = calculate_score(computer_cards)
