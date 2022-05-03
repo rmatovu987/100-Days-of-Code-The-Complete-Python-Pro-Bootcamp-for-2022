@@ -62,7 +62,7 @@ while not finished:
     num2 = float(input("What's the second number? "))
     operate(num1, operation, num2)
 
-    fin = str(input('Do you want to continue calculating? Type "yes" or "no"'))
+    fin = str(input('Do you want to continue calculating? Type "yes" or "no"   '))
     if fin == 'no':
         finished = True
 
