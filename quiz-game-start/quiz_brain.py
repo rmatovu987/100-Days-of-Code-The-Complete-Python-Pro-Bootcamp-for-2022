@@ -26,4 +26,4 @@ class QuizBrain:
             print(f'Your score is {self.score}/{len(self.question_list)}')
         else:
             print(f'Your answer is wrong! The answer is {qtn.answer}')
-            print(f'Your score is {self.score}/{len(self.question_list)}')
+            print(f'Your score is {self.score}/{self.question_number}')
