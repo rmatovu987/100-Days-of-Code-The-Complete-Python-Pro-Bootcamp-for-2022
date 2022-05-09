@@ -12,3 +12,4 @@ brain = QuizBrain(question_bank)
 while brain.still_has_questions():
     brain.next_question()
 
+print(f"You've completed the quiz. Your final score is {brain.score}/{brain.question_number}")
